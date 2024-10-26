@@ -1,0 +1,52 @@
+[
+  {
+    "name": "JS Calculator",
+    "desc": "Advance Calculator build using the html, css and Javascript.",
+    "image": "calc.jpg",
+    "category": "mern",
+    "links": {
+      "view": "https://sohelcodez.github.io/js-calculator/",
+      "code": "https://github.com/sohelcodez/js-calculator"
+    }
+  },
+  {
+    "name": "Flappy Bird Game",
+    "desc": "Flappy Bird Game build using the python GUI version.",
+    "image": "flapy.png",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/sohelCodez/python-projects/blob/main/flappy-bird-game.py",
+      "code": "https://github.com/sohelCodez/python-projects/blob/main/flappy-bird-game.py"
+    }
+  },
+  {
+    "name": "Snake Game",
+    "desc": "Snake Game build using the python GUI version.",
+    "image": "snk.png",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/sohelCodez/python-projects/blob/main/snake-game.py",
+      "code": "https://github.com/sohelCodez/python-projects/blob/main/snake-game.py"
+    }
+  },
+  {
+    "name": "Calender",
+    "desc": "Simple Calender App Build using the python GUI version.",
+    "image": "calnder.png",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/sohelCodez/python-projects/blob/main/calander.py",
+      "code": "https://github.com/sohelCodez/python-projects/blob/main/calander.py"
+    }
+  },
+  {
+    "name": "Todo Note App",
+    "desc": "Simple Todo Note App Build using the python GUI version.",
+    "image": "note.png",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/sohelCodez/python-projects/blob/main/todo-notes.py",
+      "code": "https://github.com/sohelCodez/python-projects/blob/main/todo-note.py"
+    }
+  }
+]
