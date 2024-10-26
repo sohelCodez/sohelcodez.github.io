@@ -1,8 +1,7 @@
 ## Portfolio-Website
 Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
 
-<a href="sohelcodez.github.io" target="_blank">**Visit Now** 🚀</a>
-
+[**Visit Now** 🚀](https://sohelcodez.github.io/)
 
 ## 📌 Tech Stack
 HTML, CSS, JS, JQUERY
