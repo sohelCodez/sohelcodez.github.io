@@ -37,23 +37,6 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        event.preventDefault();
-
-        // emailjs.init("");
-        // emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-        //     .then(function (response) {
-        //         console.log('SUCCESS!', response.status, response.text);
-        //         document.getElementById("contact-form").reset();
-        //         alert("Form Submitted Successfully");
-        //     }, function (error) {
-        //         console.log('FAILED...', error);
-        //         alert("Form Submission Failed! Try Again");
-        //     });
-    });
-    // <!-- emailjs to mail contact form data -->
-
 });
 
 document.addEventListener('visibilitychange',
@@ -172,26 +155,26 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // pre loader end
 
 // disable developer mode
-document.onkeydown = function (e) {
-    if (e.keyCode == 123) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-        return false;
-    }
-    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-        return false;
-    }
-}
+// document.onkeydown = function (e) {
+//     if (e.keyCode == 123) {
+//         return false;
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+//         return false;
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+//         return false;
+//     }
+//     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+//         return false;
+//     }
+//     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+//         return false;
+//     }
+// }
 
 // Start of Tawk.to Live Chat
-// var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+// var Tawk_API = fTawk_API || {}, Tawk_LoadStart = new Date();
 // (function () {
 //     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
 //     s1.async = true;
