@@ -31,7 +31,7 @@ function sendMessage() {
 
     let pg = new FormData(form);
     let xhr = new XMLHttpRequest();
-    xhr.open('POST', 'https://script.google.com/macros/s/AKfycby-UqA2Ecr1nzUPcMfUeSu_U5eLOTo21ul1mJaSFlHv-A7eSE_GC5F1X_gRuh0nzr7esg/exec', true);
+    xhr.open('POST', 'https://script.google.com/macros/s/AKfycbxz4CP1WbwcXXnoBfhtlCV9CKWkL648w1zzu-D_PbHlDVR3ZYJNjVIsKtckQ6jMOKQ_Ng/exec', true);
 
     xhr.onreadystatechange = function(){
         if(xhr.readyState === 4){
